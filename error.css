@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Josefin-Sans", sans-serif;
+    font-size: 17px;
+    scroll-behavior: smooth
+}
+
+body{
+    width: 1524px;
+    margin: auto;
+}
+
+
+
+/*scroll bar*/
+::-webkit-scrollbar{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 0%, rgba(71,70,89,1) 0%, rgba(122,122,128,1) 74%);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #333030;
+    border-radius: px;
+}
+
+.hero{
+    background:#9abec1;
+    padding: 5rem 10% 5rem 10%;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.herobg{
+    background: #333030;
+    width: 65rem;
+    height: 37rem;
+    border-radius: 20rem;
+    transform: rotate(-45deg);
+    right:-15.3rem;
+    top: -10rem;
+    position: absolute;
+    z-index:0
+}
+.herobg img{
+    transform: rotate(45deg);
+    height:25rem;
+    width: 25rem;
+    margin-left: 5rem;
+    margin-top: 5rem;
+}
+
+.hero .intro{
+    margin-bottom: 7rem;
+    z-index:1;
+    position: absolute;
+}
+
+.hero .intro h1{
+    font-size: 70px;
+}
+
+.hero .intro h2{
+    margin: 1rem;
+    font-size: 35px;
+}
+
+.hero .intro button{
+    background-color: #e92424;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+    border-radius: 3px;
+    box-shadow: 10px 10px 24px -1px rgba(123, 123, 123, 0.75);
+    text-decoration: none;
+
+}
+.hero .intro a{
+    text-decoration: none;
+    color: aliceblue;
+}
+footer{
+    background: #333030;
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+footer .logo{
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+footer .logo .dot{
+    background: #9abec1;
+}
+
+footer h3{
+    color: #9abec1;
+    margin-bottom: 1rem;
+}
+
+footer p{
+    width:50%;
+    margin: 0 auto 1rem auto;
+    color: rgba(156,156,156);
+    text-align: center;
+}
+
+footer .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social a{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    background: #9abec1;
+    margin-right:0.5rem;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+footer .social a:last-child{
+    margin-left: 0;
+}
+
+footer .social svg{
+    color:white;
+}
